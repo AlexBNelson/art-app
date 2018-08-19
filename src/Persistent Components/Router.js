@@ -8,7 +8,7 @@ class Router extends Component {
         return (
 
             <Locations>
-                <Location path="/" handler={App} />
+                <Location path="/" handler={Home} />
                 <Location path="/InDepth" handler={InDepth} />
             </Locations>
 

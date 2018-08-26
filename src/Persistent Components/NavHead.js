@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 import '../bootstrap.css';
+import Bootstrap from 'bootstrap';
 import '../App.css';
 import { Link } from 'react-router-component';
 

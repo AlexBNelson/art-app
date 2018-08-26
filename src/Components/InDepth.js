@@ -10,7 +10,7 @@ class InDepth extends Component {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <this.GetFeaturedArticleImage/>
+                        <img src="http://localhost:58282/featuredArticle"/>
                     </div>
                 
                 </div>
@@ -21,7 +21,7 @@ class InDepth extends Component {
 
     GetFeaturedArticleImage() {
 
-        this.featuredArticleImage = axios.get('/user?ID=12345')
+            axios.get('http://localhost:58282/featuredArticle')
             .then(function (response) {
                 return (response.data)
             })
@@ -29,8 +29,6 @@ class InDepth extends Component {
                 // handle error
                 console.log(error);
             })
-
-        return (<div>Hello</div>)
     }
 }
 

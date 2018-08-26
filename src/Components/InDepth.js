@@ -1,6 +1,9 @@
 import { Location, Locations } from 'react-router-component';
 import React, { Component } from 'react';
 import axios from 'axios';
+import '../App.css';
+import Bootstrap from 'bootstrap';
+import '../bootstrap.css';
 
 
 class InDepth extends Component {
@@ -9,26 +12,27 @@ class InDepth extends Component {
         return (
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <img src="http://localhost:58282/featuredArticle"/>
+                    <div class="col-12 featured-article-container">
+                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle"/>
                     </div>
                 
+                </div>
+                <div class="row">
+                    <div class="col-12 featured-article-container">
+                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle" />
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 featured-article-container">
+                        <h3 class="featured-article-title"> Article</h3>
+                        <img class="img-responsive mx-auto d-block featured-article-image" src="http://localhost:58282/featuredArticle" />
+                    </div>
+
                 </div>
             </div>
 
         );
-    }
-
-    GetFeaturedArticleImage() {
-
-            axios.get('http://localhost:58282/featuredArticle')
-            .then(function (response) {
-                return (response.data)
-            })
-            .catch(function (error) {
-                // handle error
-                console.log(error);
-            })
     }
 }
 

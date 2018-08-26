@@ -12,20 +12,26 @@ class InDepth extends Component {
         return (
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 featured-article-container">
+                    <div class="col-4 featured-article-title-box feature-article-div">
+                        </div>
+                    <div class="col-8 featured-article-container feature-article-div">
                         <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1"/>
                     </div>
                 
                 </div>
                 <div class="row">
-                    <div class="col-12 featured-article-container">
-                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1" />
+                    <div class="col-4 featured-article-title-box feature-article-div">
+                    </div>
+                    <div class="col-8 featured-article-container feature-article-div">
+                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle2" />
                     </div>
 
                 </div>
                 <div class="row">
-                    <div class="col-12 featured-article-container">
+                    <div class="col-4 featured-article-title-box feature-article-div">
                         <h4 href="/" class="featured-article-title">Exploring Exekias</h4>
+                    </div>
+                    <div class="col-8 featured-article-container feature-article-div">
                         <img class="img-responsive mx-auto d-block featured-article-image" src="http://localhost:58282/featuredArticle1" />
                     </div>
 

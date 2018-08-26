@@ -31,16 +31,20 @@
     margin-bottom: 10px;
 }
 
-.featured-article-container {
+.feature-article-div {
     max-height: 200px;
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100%;
 }
 
-.featured-article-image {
-    transform: translate(-10%, -50%);
+.featured-article-container {
+    width: 100%;
+    box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+}
+
+.featured-article-image{
+    transform: translate(-30%, -50%);
 }
 
 .featured-article-title {
@@ -48,4 +52,8 @@
     z-index: 100;
     font-family: "Segoe UI";
     padding-top: 30px;
+}
+
+.featured-article-title-box {
+    background-color: #d3d3d3;
 }

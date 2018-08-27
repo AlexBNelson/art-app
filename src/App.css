@@ -52,8 +52,9 @@
     z-index: 100;
     font-family: "Segoe UI";
     padding-top: 30px;
+    color: #635959;
 }
 
 .featured-article-title-box {
-    background-color: #d3d3d3;
+    background-color: #ededed;
 }

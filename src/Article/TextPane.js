@@ -10,16 +10,8 @@ class TextPane extends Component {
 
     render() {
         return (
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6 featured-article-title-box feature-article-div">
-                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1" />
-                    </div>
-                    <div class="col-6 featured-article-container feature-article-div">
-                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1" />
-                    </div>
-
-                </div>
+            <div>
+                Check
             </div>
 
         );

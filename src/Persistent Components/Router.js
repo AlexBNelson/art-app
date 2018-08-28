@@ -4,6 +4,7 @@ import  InDepth from '../Components/InDepth.js'
 import App from '../App.js';
 import  Home from '../Components/Home.js'
 import NavHead from './NavHead.js';
+import Article from '../Components/Article.js';
 
 
 const HomePage = () => (
@@ -21,6 +22,14 @@ const InDepthPage = () => (
 
 );
 
+const ArticlePage = () => (
+    <div>
+        <NavHead />
+        <Article />
+    </div>
+
+);
+
 class Router extends Component {
     
     render() {
@@ -30,6 +39,7 @@ class Router extends Component {
             <Locations>
                 <Location path="/" handler={HomePage} />
                 <Location path="/InDepth" handler={InDepthPage} />
+                <Location path="/Exekias" handler={ArticlePage} />
             </Locations>
 
         );

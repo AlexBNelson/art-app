@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import Router from './Persistent Components/Router.js'
 import NavHead from './Persistent Components/NavHead';
 import WebFont from 'webfontloader';
+import './App.css';
 
 WebFont.load({
     google: {

@@ -4,25 +4,31 @@ import axios from 'axios';
 import '../App.css';
 import Bootstrap from 'bootstrap';
 import '../bootstrap.css';
+import ArticlePane from '../Article/ArticlePane.js';
+import TitlePane from '../Article/TitlePane';
 
 
 class Article extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = { articleState: props.articleState };
+    }
+
     render() {
-        return (
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6 featured-article-title-box feature-article-div">
-                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1" />
-                    </div>
-                    <div class="col-6 featured-article-container feature-article-div">
-                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1" />
-                    </div>
+        if (state.articleState == "title") {
+            return (
 
-                </div>
-                </div>
-
-        );
+                <div>
+                    <TitlePane />
+                </div>)
+        }
+        else {
+            return (
+                <div>
+                    <ArticlePane />
+                </div>)
+        }
     }
 }
 

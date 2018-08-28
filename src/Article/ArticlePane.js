@@ -4,6 +4,8 @@ import axios from 'axios';
 import '../App.css';
 import Bootstrap from 'bootstrap';
 import '../bootstrap.css';
+import ImagePane from './ArticlePane/ImagePane';
+import TextPane from './ArticlePane/TextPane';
 
 
 class ArticlePane extends Component {
@@ -12,11 +14,11 @@ class ArticlePane extends Component {
         return (
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6 featured-article-title-box feature-article-div">
-                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1" />
+                    <div class="col-6">
+                        <ImagePane/>
                     </div>
-                    <div class="col-6 featured-article-container feature-article-div">
-                        <img class="featured-article-image img-responsive" src="http://localhost:58282/featuredArticle1" />
+                    <div class="col-6">
+                        <TextPane/>
                     </div>
 
                 </div>

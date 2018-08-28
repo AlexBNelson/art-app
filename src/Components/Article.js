@@ -16,7 +16,7 @@ class Article extends Component {
     }
 
     render() {
-        if (state.articleState == "title") {
+        if (this.state.articleState == "title") {
             return (
 
                 <div>

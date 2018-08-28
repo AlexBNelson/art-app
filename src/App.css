@@ -32,7 +32,7 @@ html, body {
   to { transform: rotate(360deg); }
 }
 
-.NavHead{
+.NavHead {
     margin-bottom: 10px;
 }
 
@@ -52,6 +52,18 @@ html, body {
     transform: translate(-30%, -50%);
 }
 
+.article-image-pane {
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-image-pane-img {
+    transform: translate(-30%, -50%);
+    z-index:10000;
+}
+
+
 .featured-article-title {
     position: absolute;
     z-index: 100;
@@ -67,4 +79,18 @@ html, body {
 .image-pane {
     overflow: hidden;
     height: 90vh;
+}
+
+.image-details-pane {
+    vertical-align: text-bottom;
+    background-color: #e2e2e2;
+    color: #6a6a6a;
+    height: 10vh;
+    width: 16vh;
+    margin: 10px;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1000;
+    padding: 5px;
 }

@@ -9,18 +9,12 @@ class App extends Component {
     setMainPane(prop){
         this.mainPane = prop;
       }
-
-    mainPane = (<div> hello</div>);
         
     render() {
 
       return (
           
           <div className="App">
-              
-              <NavHead />
-              
-        
           </div>
 
     );

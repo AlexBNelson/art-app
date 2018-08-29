@@ -31,10 +31,10 @@ class NavHead extends Component {
                     Dropdown
         </a>
                    <div class="dropdown-menu" onClick={this.toggleOpen} aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Fine Art</a>
+                    <a class="dropdown-item" href="#">Photography</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Architecture</a>
                 </div>
             </li>
         </ul>

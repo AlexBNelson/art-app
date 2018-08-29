@@ -84,11 +84,14 @@ html, body {
 .image-details-pane {
     vertical-align: text-bottom;
     background-color: #e2e2e2;
-    color: #6a6a6a;
+    opacity: 0.65;
+    color: #282727;
     height: 10vh;
     width: 16vh;
     margin: 10px;
     float: left;
+    font-style: italic;
+    font-weight: bold;
     position: absolute;
     bottom: 0px;
     z-index: 1000;

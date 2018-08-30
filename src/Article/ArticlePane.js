@@ -12,6 +12,7 @@ class ArticlePane extends Component {
 
     render() {
         return (
+           
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">

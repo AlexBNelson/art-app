@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\Article",
+    "\\src\\Article\\ArticlePane",
+    "\\src\\Article\\ArticlePane\\ImagePane",
     "\\src\\Components",
     "\\src\\Persistent Components"
   ],
-  "SelectedNode": "\\src\\Components\\InDepth.js",
+  "SelectedNode": "\\src\\App.css",
   "PreviewInSolutionExplorer": false
 }

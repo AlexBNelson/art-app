@@ -6,6 +6,7 @@ import Bootstrap from 'bootstrap';
 import '../bootstrap.css';
 import ArticlePane from '../Article/ArticlePane.js';
 import TitlePane from '../Article/TitlePane';
+import './Article.css';
 
 
 class Article extends Component {

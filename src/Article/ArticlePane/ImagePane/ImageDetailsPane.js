@@ -4,6 +4,7 @@ import axios from 'axios';
 import '../../../App.css';
 import Bootstrap from 'bootstrap';
 import '../../../bootstrap.css';
+import '../../../Components/Article.css';
 
 
 class ImageDetailsPane extends Component {

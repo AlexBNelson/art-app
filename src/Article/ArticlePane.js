@@ -4,6 +4,7 @@ import axios from 'axios';
 import '../App.css';
 import Bootstrap from 'bootstrap';
 import '../bootstrap.css';
+import '../Components/Article.css'
 import ImagePane from './ArticlePane/ImagePane';
 import TextPane from './ArticlePane/TextPane';
 

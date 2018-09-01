@@ -5,7 +5,7 @@ import '../App.css';
 import Bootstrap from 'bootstrap';
 import '../bootstrap.css';
 import ArticlePane from '../Article/ArticlePane.js';
-import TitlePane from '../Article/TitlePane';
+import BackgroundPane from '../Article/BackgroundPane';
 import './Article.css';
 
 
@@ -17,20 +17,12 @@ class Article extends Component {
     }
 
     render() {
-        if (this.state.articleState == "title") {
-            return (
-
-                <div>
-                    <TitlePane />
-                </div>)
-        }
-        else {
             return (
                 <div>
+                    <BackgroundPane />
                     <ArticlePane />
                 </div>)
         }
     }
-}
 
 export default Article;

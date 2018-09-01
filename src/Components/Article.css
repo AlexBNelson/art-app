@@ -5,6 +5,23 @@
     margin-bottom: 10px;
 }
 
+.article-background-pane {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.3;
+    width: 100%;
+    height: auto;
+}
+
+.article-text-list {
+    list-style-type: none;
+}
+
+
+
+.article-body-pane {
+    padding-top: 90vh;
+}
 .article-text-pane {
     display: flex;
     overflow-y: scroll;
@@ -65,4 +82,16 @@
     bottom: 0px;
     z-index: 1000;
     padding: 5px;
+}
+
+.text-intro-pane {
+    vertical-align: text-top;
+    background-color: #e2e2e2;
+    opacity: 0.65;
+    color: #282727;
+    height: 40vh;
+    font-style: italic;
+    font-weight: bold;
+    z-index: 1000;
+    padding-bottom: 50vh;
 }

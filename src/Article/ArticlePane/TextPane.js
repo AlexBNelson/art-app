@@ -17,7 +17,7 @@ class TextPane extends Component {
 
     render() {
         return (
-            <div class="container article-text-pane" onScroll={handleScroll}>
+            <div class="container article-text-pane" onScroll={this.handleScroll}>
                 <div class="row text-intro-pane">
                     asdfdsfdsfsadfasd
                     </div>

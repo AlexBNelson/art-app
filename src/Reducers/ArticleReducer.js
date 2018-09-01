@@ -1,18 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { createStore } from 'redux'
-
-const store = createStore(counter)
-const rootEl = document.getElementById('root')
-
-const render = () => ReactDOM.render(
-    <Counter
-        value={store.getState()}
-        onIncrement={() => store.dispatch({ type: 'INCREMENT' })}
-        onDecrement={() => store.dispatch({ type: 'DECREMENT' })}
-    />,
-    rootEl
-)
-
-render()
-store.subscribe(render)
+export default (state = 0, action) => {
+    switch (action.type) {
+        case 'ARTICLEIMAGE1':
+            return state + 1
+        case 'ARTICLEIMAGE2':
+            return state - 1
+        default:
+            return state
+    }
+}

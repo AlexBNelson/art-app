@@ -10,10 +10,14 @@ import TextIntroPane from './TextPane/TextIntroPane.js';
 
 
 class TextPane extends Component {
-    
+
+    handleScroll() {
+
+    }
+
     render() {
         return (
-            <div class="container article-text-pane">
+            <div class="container article-text-pane" onScroll={handleScroll}>
                 <div class="row text-intro-pane">
                     asdfdsfdsfsadfasd
                     </div>

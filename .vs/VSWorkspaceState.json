@@ -5,9 +5,10 @@
     "\\src\\Article",
     "\\src\\Article\\ArticlePane",
     "\\src\\Article\\ArticlePane\\ImagePane",
+    "\\src\\Article\\ArticlePane\\TextPane",
     "\\src\\Components",
     "\\src\\Persistent Components"
   ],
-  "SelectedNode": "\\src\\Article\\ArticlePane\\TextPane.js",
+  "SelectedNode": "\\src\\z-index.config",
   "PreviewInSolutionExplorer": false
 }

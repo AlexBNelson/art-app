@@ -7,17 +7,31 @@ import '../../bootstrap.css';
 import '../../Components/Article.css';
 import ScrollArea from 'react-scrollbar';
 import TextIntroPane from './TextPane/TextIntroPane.js';
-
+import ReactDOM from 'react-dom';
 
 class TextPane extends Component {
+    
+    constructor(props) {
+        super(props);
+        // create a ref to store the textInput DOM element
+    }
+    
+    componentDidMount() {
+        const scrollNode = this.myScroll;
+        scrollNode.addEventListener('scroll', function () {
+            if (scrollNode.scrollTop > 300) {
+                //make imagePane visible
+            }
+        })
+    }
 
     handleScroll() {
-
+        console.log(this);
     }
 
     render() {
         return (
-            <div class="container article-text-pane" onScroll={handleScroll}>
+            <div id="TextPane.scrollDiv" class="container article-text-pane" ref={ref => this.myScroll = ref} >
                 <div class="row text-intro-pane">
                     asdfdsfdsfsadfasd
                     </div>

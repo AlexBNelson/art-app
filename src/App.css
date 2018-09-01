@@ -37,3 +37,30 @@ html, body {
     margin-bottom: 10px;
 }
 
+
+.featured-article-container {
+    width: 100%;
+}
+
+.featured-article-image {
+    transform: translate(-30%, -50%);
+}
+
+.featured-article-title {
+    position: absolute;
+    z-index: 100;
+    font-family: "Segoe UI";
+    padding-top: 30px;
+    color: #635959;
+}
+
+.featured-article-title-box {
+    background-color: #ededed;
+}
+
+.feature-article-div {
+    max-height: 200px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
